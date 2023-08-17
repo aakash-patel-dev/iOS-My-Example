@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-ConstraintPractices/Pods-ConstraintPractices-frameworks.sh
+${BUILT_PRODUCTS_DIR}/DateToolsSwift/DateToolsSwift.framework
+${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework
+${BUILT_PRODUCTS_DIR}/RAGTextField/RAGTextField.framework
+${BUILT_PRODUCTS_DIR}/UnderLineTextField/UnderLineTextField.framework

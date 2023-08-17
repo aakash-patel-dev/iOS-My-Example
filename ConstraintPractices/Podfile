@@ -1,0 +1,16 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+
+target 'ConstraintPractices' do
+
+  use_frameworks!
+pod 'IQKeyboardManagerSwift'
+#pod 'iOSDropDown'
+#pod 'DropDown', '2.3.2'
+pod 'UnderLineTextField', '~> 2.0'
+pod "RAGTextField"
+
+pod 'DateToolsSwift'
+
+
+end

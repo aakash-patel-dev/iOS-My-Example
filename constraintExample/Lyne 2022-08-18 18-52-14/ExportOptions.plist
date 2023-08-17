@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>compileBitcode</key>
+	<false/>
+	<key>destination</key>
+	<string>export</string>
+	<key>method</key>
+	<string>development</string>
+	<key>provisioningProfiles</key>
+	<dict>
+		<key>com.aaah.test</key>
+		<string>AAAH TEST Development Profile</string>
+		<key>com.aaah.test.IntentHandler-Lyne</key>
+		<string>AAAH_Wildcard</string>
+		<key>com.aaah.test.IntentHandlerUI</key>
+		<string>AAAH_Wildcard</string>
+		<key>com.aaah.test.LyneWidget</key>
+		<string>AAAH_Lyne_Widget</string>
+	</dict>
+	<key>signingCertificate</key>
+	<string>Apple Development</string>
+	<key>signingStyle</key>
+	<string>manual</string>
+	<key>stripSwiftSymbols</key>
+	<false/>
+	<key>teamID</key>
+	<string>Y7YLFDJSF3</string>
+	<key>thinning</key>
+	<string>&lt;none&gt;</string>
+</dict>
+</plist>

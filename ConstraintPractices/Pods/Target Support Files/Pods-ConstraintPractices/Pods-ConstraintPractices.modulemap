@@ -1,0 +1,6 @@
+framework module Pods_ConstraintPractices {
+  umbrella header "Pods-ConstraintPractices-umbrella.h"
+
+  export *
+  module * { export * }
+}

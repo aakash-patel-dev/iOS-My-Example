@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="gTV-IL-0wX" customClass="CollectionViewCell" customModule="ConstraintPractices" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="127" height="148"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="127" height="148"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f1T-Pc-I89">
+                        <rect key="frame" x="0.0" y="0.0" width="127" height="148"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="doc.text.image" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="39s-3I-1Ff">
+                                <rect key="frame" x="0.0" y="0.0" width="127" height="148"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="39s-3I-1Ff" secondAttribute="trailing" id="imB-3r-EPn"/>
+                            <constraint firstItem="39s-3I-1Ff" firstAttribute="leading" secondItem="f1T-Pc-I89" secondAttribute="leading" id="kqk-wh-vBO"/>
+                            <constraint firstItem="39s-3I-1Ff" firstAttribute="top" secondItem="f1T-Pc-I89" secondAttribute="top" id="nZa-Qn-WTp"/>
+                            <constraint firstAttribute="bottom" secondItem="39s-3I-1Ff" secondAttribute="bottom" id="tX8-WT-bEE"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="f1T-Pc-I89" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="INa-md-M6j"/>
+                <constraint firstItem="f1T-Pc-I89" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Win-rj-P5W"/>
+                <constraint firstAttribute="bottom" secondItem="f1T-Pc-I89" secondAttribute="bottom" id="fFz-dE-2UX"/>
+                <constraint firstAttribute="trailing" secondItem="f1T-Pc-I89" secondAttribute="trailing" id="rBL-4b-8ry"/>
+            </constraints>
+            <size key="customSize" width="237" height="222"/>
+            <connections>
+                <outlet property="imgView" destination="39s-3I-1Ff" id="AvT-3w-PYJ"/>
+            </connections>
+            <point key="canvasLocation" x="60.14492753623189" y="132.58928571428572"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="doc.text.image" catalog="system" width="115" height="128"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

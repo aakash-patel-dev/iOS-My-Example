@@ -1,0 +1,28 @@
+PODS:
+  - DateToolsSwift (5.0.0)
+  - IQKeyboardManagerSwift (6.5.9)
+  - RAGTextField (0.14.0)
+  - UnderLineTextField (2.1.0)
+
+DEPENDENCIES:
+  - DateToolsSwift
+  - IQKeyboardManagerSwift
+  - RAGTextField
+  - UnderLineTextField (~> 2.0)
+
+SPEC REPOS:
+  trunk:
+    - DateToolsSwift
+    - IQKeyboardManagerSwift
+    - RAGTextField
+    - UnderLineTextField
+
+SPEC CHECKSUMS:
+  DateToolsSwift: 4207ada6ad615d8dc076323d27037c94916dbfa6
+  IQKeyboardManagerSwift: 6e839c575c4aa1078d58a596e41244e77abe918f
+  RAGTextField: ebeab17ae88ce880a85601af33edc2879fa53813
+  UnderLineTextField: b3f5307b56962331e30a965e81b79aae2df1de83
+
+PODFILE CHECKSUM: d9148af0c6eaa5c5fab36a402769cc579e043ec7
+
+COCOAPODS: 1.11.2
